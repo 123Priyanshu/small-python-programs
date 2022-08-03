@@ -1,20 +1,24 @@
 def printTableRow(inputNum, rowNum):
-    #Should print something like below if the inputNum is 2
+    Test = inputNum*rowNum
+    # Should print something like below if the inputNum is 2
     #
-    #2 X 1 = 2
-    #we get 2 from the inputNum
-    #we get 1 from rowNum
-    #2 on the right hand side of = is the product of inputNum and rowNum
-    print("Test")
+    # 2 X 1 = 2
+    # we get 2 from the inputNum
+    # we get 1 from rowNum
+    # 2 on the right hand side of = is the product of inputNum and rowNum
+    print(Test)
+
 
 def printTable(inputNum):
-    #Should print something like below if the inputNum is 2
+    a = inputNum
+    for a in range(0, 21):
+         print(inputNum,'x', a, '=', inputNum*a)
+    # Should print something like below if the inputNum is 2
     #
-    #2 X 1 = 2
-    #2 X 2 = 4
+    # 2 X 1 = 2
+    # 2 X 2 = 4
     # ..
-    #2 X 10 = 20
-    print("Test")
-
-printTableRow(2, 1)
+    # 2 X 10 = 20
+printTableRow(5, 6)
 printTable(2)
+
