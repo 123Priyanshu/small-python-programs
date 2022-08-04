@@ -8,7 +8,7 @@ def printTableRow(inputNum, rowNum):
 
 def printTable(inputNum):
     a = inputNum
-    for a in range(0, 10):
+    for a in range(0, 11):
         print(inputNum, 'x', a, '=', inputNum*a)
 
     # Should print something like below if the inputNum is 2
